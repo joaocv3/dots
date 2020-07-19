@@ -66,17 +66,16 @@
   pl = pull
   px = push
   r = remote
-  s = show
+  s = status
   shame = "!s() { git blame $1 -p | grep 'author ' | cut -d' ' -f2-10 | sort | uniq -c | sort | tail -n1 | cut -c6-30 ; }; s"
   shout = "!s() { git shame $1 | say; }; s"
   ss = status -s
-  st = status
   sw = switch
   t = !git this
   this = !git init && git add . && git commit -m \"Initial commit.\"
   unstage = reset HEAD --
   w = log --name-status #short whatchanged
-  x  = commit -m
+  cm  = commit -m
   xa = commit -a -m
 
 [push]
