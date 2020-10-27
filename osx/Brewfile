@@ -81,6 +81,7 @@ cask 'whatsapp'
 cask 'visual-studio-code'
 cask 'pomodone'
 cask 'discord'
+cask 'zoomus'
 cask 'karabiner-elements'
 
 # Install fonts
