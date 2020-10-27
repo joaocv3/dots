@@ -79,6 +79,7 @@ cask 'transmission'
 cask 'vlc'
 cask 'whatsapp'
 cask 'visual-studio-code'
+cask 'pomodone'
 cask 'karabiner-elements'
 
 # Install fonts
